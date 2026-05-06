@@ -24,7 +24,24 @@
 </div>
 
 <div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=BassRhombus&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=BassRhombus&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681&currStreakNum=c9d1d9&sideNums=c9d1d9" width="49%"/>
+</div>
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=BassRhombus&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies"/>
+</div>
+
+---
+
+## 🛰️ GitHub Metrics
+
+<div align="center">
+<img src="./github-metrics.svg" alt="GitHub Metrics"/>
+</div>
+
+<div align="center">
+<img src="./github-metrics-main.svg" alt="Achievements & Habits"/>
 </div>
 
 ---
@@ -141,6 +158,14 @@
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=BassRhombus&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=161b22&hide_border=true"/>
+</div>
+
+---
+
+## 🧱 Commit Block
+
+<div align="center">
+<img src="./profile-gitblock.svg" alt="Commit Block"/>
 </div>
 
 ---
