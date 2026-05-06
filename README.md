@@ -40,10 +40,6 @@
 <img src="./github-metrics.svg" alt="GitHub Metrics"/>
 </div>
 
-<div align="center">
-<img src="./github-metrics-main.svg" alt="Achievements & Habits"/>
-</div>
-
 ---
 
 ## 🧠 Tech Stack
