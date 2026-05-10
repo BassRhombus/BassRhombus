@@ -18,7 +18,7 @@
     <circle cx="6" cy="8" r="6" fill="#3178c6"/>
     <text x="18" y="12" class="lang-name">TypeScript</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="181.1413844597524" height="10" fill="#3178c6" rx="5"/>
+    <rect x="0" y="20" width="181.10264965728223" height="10" fill="#3178c6" rx="5"/>
     <text x="315" y="14" class="lang-stats">626.7k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">60.4%</text>
   </g>
@@ -27,8 +27,8 @@
     <circle cx="6" cy="8" r="6" fill="#f1e05a"/>
     <text x="18" y="12" class="lang-name">JavaScript</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="74.19981694686642" height="10" fill="#f1e05a" rx="5"/>
-    <text x="315" y="14" class="lang-stats">256.7k lines</text>
+    <rect x="0" y="20" width="74.20244429632085" height="10" fill="#f1e05a" rx="5"/>
+    <text x="315" y="14" class="lang-stats">256.8k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">24.7%</text>
   </g>
 
@@ -36,7 +36,7 @@
     <circle cx="6" cy="8" r="6" fill="#3572A5"/>
     <text x="18" y="12" class="lang-name">Python</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="27.133387928127558" height="10" fill="#3572A5" rx="5"/>
+    <rect x="0" y="20" width="27.12758579503204" height="10" fill="#3572A5" rx="5"/>
     <text x="315" y="14" class="lang-stats">93.9k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">9.0%</text>
   </g>
@@ -45,7 +45,7 @@
     <circle cx="6" cy="8" r="6" fill="#00B4AB"/>
     <text x="18" y="12" class="lang-name">Dart</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="13.82320921046293" height="10" fill="#00B4AB" rx="5"/>
+    <rect x="0" y="20" width="13.820253291362127" height="10" fill="#00B4AB" rx="5"/>
     <text x="315" y="14" class="lang-stats">47.8k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">4.6%</text>
   </g>
@@ -64,7 +64,7 @@
     <text x="18" y="12" class="lang-name">Shell</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
     <rect x="0" y="20" width="2" height="10" fill="#89e051" rx="5"/>
-    <text x="315" y="14" class="lang-stats">4.1k lines</text>
+    <text x="315" y="14" class="lang-stats">4.2k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">0.4%</text>
   </g>
 
