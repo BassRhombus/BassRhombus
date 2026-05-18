@@ -1,18 +1,18 @@
 {
-  "total_repos_analyzed": 129,
-  "total_lines_added": 1040291,
-  "total_commits": 2382,
+  "total_repos_analyzed": 130,
+  "total_lines_added": 1044760,
+  "total_commits": 2384,
   "languages": [
     {
       "name": "TypeScript",
-      "lines_added": 626719,
-      "percentage": 60.2,
+      "lines_added": 631007,
+      "percentage": 60.4,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
       "lines_added": 257873,
-      "percentage": 24.8,
+      "percentage": 24.7,
       "color": "#f1e05a"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "name": "Shell",
-      "lines_added": 4805,
+      "lines_added": 4852,
       "percentage": 0.5,
       "color": "#89e051"
     },
@@ -52,16 +52,16 @@
       "color": "#178600"
     },
     {
+      "name": "Rust",
+      "lines_added": 283,
+      "percentage": 0.0,
+      "color": "#dea584"
+    },
+    {
       "name": "Swift",
       "lines_added": 259,
       "percentage": 0.0,
       "color": "#F05138"
-    },
-    {
-      "name": "Rust",
-      "lines_added": 149,
-      "percentage": 0.0,
-      "color": "#dea584"
     }
   ],
   "_cache": {
@@ -1133,6 +1133,16 @@
       "total_commits": 1,
       "total_lines": 0,
       "lang_lines": {}
+    },
+    "BassRhombus/PathProx": {
+      "last_sha": "480c9ace6e09b119f404e79d71c294b095658592",
+      "total_commits": 2,
+      "total_lines": 4469,
+      "lang_lines": {
+        "TypeScript": 4288,
+        "Shell": 47,
+        "Rust": 134
+      }
     }
   }
 }
