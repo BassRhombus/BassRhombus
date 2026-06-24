@@ -1,7 +1,7 @@
 {
-  "total_repos_analyzed": 133,
+  "total_repos_analyzed": 134,
   "total_lines_added": 1054397,
-  "total_commits": 2431,
+  "total_commits": 2433,
   "languages": [
     {
       "name": "TypeScript",
@@ -491,8 +491,8 @@
       }
     },
     "NexLink-Core-LLC/NLC-Website": {
-      "last_sha": "3ed4de37d7424b039c93f5240808d27ab248a75c",
-      "total_commits": 5,
+      "last_sha": "526e0ad1ba55a619358a9c3922ba9e842363db58",
+      "total_commits": 6,
       "total_lines": 0,
       "lang_lines": {}
     },
@@ -1166,6 +1166,12 @@
       "lang_lines": {
         "JavaScript": 461
       }
+    },
+    "NexLink-Core-LLC/game-config-data": {
+      "last_sha": "0829161a4366838b2a427118a6b46af89b01cdea",
+      "total_commits": 1,
+      "total_lines": 0,
+      "lang_lines": {}
     }
   }
 }
