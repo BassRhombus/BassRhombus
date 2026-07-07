@@ -1,24 +1,24 @@
 {
   "total_repos_analyzed": 135,
-  "total_lines_added": 1059025,
-  "total_commits": 2447,
+  "total_lines_added": 1061991,
+  "total_commits": 2453,
   "languages": [
     {
       "name": "TypeScript",
       "lines_added": 631758,
-      "percentage": 59.7,
+      "percentage": 59.5,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
-      "lines_added": 271308,
-      "percentage": 25.6,
+      "lines_added": 274247,
+      "percentage": 25.8,
       "color": "#f1e05a"
     },
     {
       "name": "Python",
       "lines_added": 93877,
-      "percentage": 8.9,
+      "percentage": 8.8,
       "color": "#3572A5"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "name": "SQL",
-      "lines_added": 4796,
+      "lines_added": 4823,
       "percentage": 0.5,
       "color": "#e38c00"
     },
@@ -1145,12 +1145,12 @@
       }
     },
     "BassRhombus/BOT-0038": {
-      "last_sha": "42579d278c7fbfc666f45bcb171f8e697f38e659",
-      "total_commits": 1,
-      "total_lines": 502,
+      "last_sha": "6ad95f0769343cd006c51ebd9e5a9ac9ce3ed619",
+      "total_commits": 7,
+      "total_lines": 3468,
       "lang_lines": {
-        "JavaScript": 423,
-        "SQL": 79
+        "JavaScript": 3362,
+        "SQL": 106
       }
     },
     "BassRhombus/ToxAdminBot": {
