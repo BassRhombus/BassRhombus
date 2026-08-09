@@ -1,18 +1,18 @@
 {
   "total_repos_analyzed": 136,
-  "total_lines_added": 1070194,
-  "total_commits": 2506,
+  "total_lines_added": 1071299,
+  "total_commits": 2511,
   "languages": [
     {
       "name": "TypeScript",
       "lines_added": 636466,
-      "percentage": 59.5,
+      "percentage": 59.4,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
-      "lines_added": 277114,
-      "percentage": 25.9,
+      "lines_added": 278219,
+      "percentage": 26.0,
       "color": "#f1e05a"
     },
     {
@@ -497,11 +497,11 @@
       "lang_lines": {}
     },
     "BassRhombus/BetterTickets": {
-      "last_sha": "e31ed21e4506c982e828806ff76c5bf10152ce26",
-      "total_commits": 77,
-      "total_lines": 19375,
+      "last_sha": "b99fddca59269f2dad74eda30623f347b4440946",
+      "total_commits": 82,
+      "total_lines": 20480,
       "lang_lines": {
-        "JavaScript": 19375
+        "JavaScript": 20480
       }
     },
     "BassRhombus/New-folder": {
