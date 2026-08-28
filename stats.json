@@ -1,43 +1,43 @@
 {
   "total_repos_analyzed": 140,
-  "total_lines_added": 1089441,
-  "total_commits": 2586,
+  "total_lines_added": 1146078,
+  "total_commits": 2697,
   "languages": [
     {
       "name": "TypeScript",
-      "lines_added": 645729,
-      "percentage": 59.3,
+      "lines_added": 672363,
+      "percentage": 58.7,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
-      "lines_added": 287076,
-      "percentage": 26.4,
+      "lines_added": 315836,
+      "percentage": 27.6,
       "color": "#f1e05a"
     },
     {
       "name": "Python",
       "lines_added": 94306,
-      "percentage": 8.7,
+      "percentage": 8.2,
       "color": "#3572A5"
     },
     {
       "name": "Dart",
       "lines_added": 47826,
-      "percentage": 4.4,
+      "percentage": 4.2,
       "color": "#00B4AB"
     },
     {
-      "name": "Shell",
-      "lines_added": 5057,
+      "name": "SQL",
+      "lines_added": 5977,
       "percentage": 0.5,
-      "color": "#89e051"
+      "color": "#e38c00"
     },
     {
-      "name": "SQL",
-      "lines_added": 4839,
-      "percentage": 0.4,
-      "color": "#e38c00"
+      "name": "Shell",
+      "lines_added": 5162,
+      "percentage": 0.5,
+      "color": "#89e051"
     },
     {
       "name": "C++",
@@ -505,11 +505,11 @@
       }
     },
     "BassRhombus/New-folder": {
-      "last_sha": "5575405df558b43a10a0918487101cc1d82b330a",
-      "total_commits": 102,
-      "total_lines": 35992,
+      "last_sha": "0c0eda618a8d309f4f9993b9972c2ca86d4b0f9a",
+      "total_commits": 103,
+      "total_lines": 36016,
       "lang_lines": {
-        "TypeScript": 35567,
+        "TypeScript": 35591,
         "JavaScript": 425
       }
     },
@@ -723,14 +723,14 @@
       }
     },
     "BassRhombus/NewBassLicense": {
-      "last_sha": "71fb7ded14f983e395f46ce557c2429a87397231",
-      "total_commits": 61,
-      "total_lines": 36735,
+      "last_sha": "935051520ae945a1b238349a9d75263733158a9b",
+      "total_commits": 171,
+      "total_lines": 93348,
       "lang_lines": {
-        "JavaScript": 21833,
-        "TypeScript": 14009,
-        "SQL": 836,
-        "Shell": 57
+        "JavaScript": 50593,
+        "TypeScript": 40619,
+        "SQL": 1974,
+        "Shell": 162
       }
     },
     "BassRhombus/GSH-Image-Bin": {
