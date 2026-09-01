@@ -1,18 +1,18 @@
 {
   "total_repos_analyzed": 142,
-  "total_lines_added": 1151590,
-  "total_commits": 2711,
+  "total_lines_added": 1152317,
+  "total_commits": 2715,
   "languages": [
     {
       "name": "TypeScript",
-      "lines_added": 672823,
-      "percentage": 58.4,
+      "lines_added": 673550,
+      "percentage": 58.5,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
       "lines_added": 320888,
-      "percentage": 27.9,
+      "percentage": 27.8,
       "color": "#f1e05a"
     },
     {
@@ -1135,11 +1135,11 @@
       "lang_lines": {}
     },
     "BassRhombus/PathProx": {
-      "last_sha": "6188a7256ccdc028bff3b3ea3dc3a914e6cd51e9",
-      "total_commits": 24,
-      "total_lines": 6322,
+      "last_sha": "08c997bbf5632f61fe0d790f431faf4fadbe0a8b",
+      "total_commits": 28,
+      "total_lines": 7049,
       "lang_lines": {
-        "TypeScript": 6132,
+        "TypeScript": 6859,
         "Shell": 47,
         "Rust": 134,
         "JavaScript": 9
