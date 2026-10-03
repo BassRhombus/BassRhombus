@@ -1,18 +1,18 @@
 {
   "total_repos_analyzed": 143,
-  "total_lines_added": 1195807,
-  "total_commits": 2837,
+  "total_lines_added": 1197975,
+  "total_commits": 2844,
   "languages": [
     {
       "name": "TypeScript",
       "lines_added": 698555,
-      "percentage": 58.4,
+      "percentage": 58.3,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
-      "lines_added": 339373,
-      "percentage": 28.4,
+      "lines_added": 341541,
+      "percentage": 28.5,
       "color": "#f1e05a"
     },
     {
@@ -474,11 +474,11 @@
       }
     },
     "BassRhombus/Mod-Bot": {
-      "last_sha": "9fa53c1cc590f53efb45aa3397468222e50899cf",
-      "total_commits": 112,
-      "total_lines": 42498,
+      "last_sha": "db71c861d6dc58fab4db9661e50d1b75f97e5c23",
+      "total_commits": 117,
+      "total_lines": 44515,
       "lang_lines": {
-        "JavaScript": 42498
+        "JavaScript": 44515
       }
     },
     "BassRhombus/titantech": {
@@ -497,11 +497,11 @@
       "lang_lines": {}
     },
     "BassRhombus/BetterTickets": {
-      "last_sha": "12fd0ffe0d9b98bff4f35937dd7a920e010d03f5",
-      "total_commits": 87,
-      "total_lines": 20957,
+      "last_sha": "95ea9529dfd66fc7e0f3a07053ae7c47cc27e98f",
+      "total_commits": 89,
+      "total_lines": 21108,
       "lang_lines": {
-        "JavaScript": 20957
+        "JavaScript": 21108
       }
     },
     "BassRhombus/New-folder": {
