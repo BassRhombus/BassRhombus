@@ -1,18 +1,18 @@
 {
   "total_repos_analyzed": 143,
-  "total_lines_added": 1203920,
-  "total_commits": 2862,
+  "total_lines_added": 1208855,
+  "total_commits": 2949,
   "languages": [
     {
       "name": "TypeScript",
-      "lines_added": 703067,
-      "percentage": 58.4,
+      "lines_added": 703069,
+      "percentage": 58.2,
       "color": "#3178c6"
     },
     {
       "name": "JavaScript",
-      "lines_added": 342974,
-      "percentage": 28.5,
+      "lines_added": 347907,
+      "percentage": 28.8,
       "color": "#f1e05a"
     },
     {
@@ -497,11 +497,11 @@
       "lang_lines": {}
     },
     "BassRhombus/BetterTickets": {
-      "last_sha": "95ea9529dfd66fc7e0f3a07053ae7c47cc27e98f",
-      "total_commits": 89,
-      "total_lines": 21108,
+      "last_sha": "584191c873890d9ae50f24494589a7efc5921821",
+      "total_commits": 90,
+      "total_lines": 21457,
       "lang_lines": {
-        "JavaScript": 21108
+        "JavaScript": 21457
       }
     },
     "BassRhombus/New-folder": {
@@ -514,11 +514,11 @@
       }
     },
     "BassRhombus/BOT-0032": {
-      "last_sha": "96a27b196803b18d18dc0aa39c552b6e43b04b3a",
-      "total_commits": 1,
-      "total_lines": 1590,
+      "last_sha": "81648b62feb6266107cdd0a2bf904ff8f840e3a4",
+      "total_commits": 4,
+      "total_lines": 1834,
       "lang_lines": {
-        "JavaScript": 1590
+        "JavaScript": 1834
       }
     },
     "BassRhombus/Finances": {
@@ -530,67 +530,67 @@
       }
     },
     "BassRhombus/AshfallBot": {
-      "last_sha": "52ee784b33c51ed66b6e203bc86096cd58f83c8d",
-      "total_commits": 19,
-      "total_lines": 6308,
+      "last_sha": "e7c00140b534f8756f025a23a3cba6c8d6a7297e",
+      "total_commits": 21,
+      "total_lines": 6310,
       "lang_lines": {
-        "JavaScript": 6308
+        "JavaScript": 6310
       }
     },
     "BassRhombus/WhitelistSync": {
-      "last_sha": "371893db6dd4223b10897e0230d3c6400c2dbc23",
-      "total_commits": 27,
-      "total_lines": 3012,
+      "last_sha": "d1830122017a53141e50a86c26d9dc4ee2f84206",
+      "total_commits": 41,
+      "total_lines": 5117,
       "lang_lines": {
-        "JavaScript": 3012
+        "JavaScript": 5117
       }
     },
     "BassRhombus/BOT-0019": {
-      "last_sha": "9266cbcfc40ced87db54eaf910a1dae35f338e7e",
-      "total_commits": 33,
-      "total_lines": 6924,
+      "last_sha": "7bcd55d6b2a29da86819da0193f3b940819cb3e4",
+      "total_commits": 36,
+      "total_lines": 7174,
       "lang_lines": {
-        "JavaScript": 6924
+        "JavaScript": 7174
       }
     },
     "BassRhombus/QueryBot": {
-      "last_sha": "829487dd343533a8c8514d6533b39c3c46bc3595",
-      "total_commits": 3,
-      "total_lines": 4184,
+      "last_sha": "ba2dd3ade91da78a7a4da7d26992b916bd9cdb4d",
+      "total_commits": 4,
+      "total_lines": 4379,
       "lang_lines": {
-        "JavaScript": 4184
+        "JavaScript": 4379
       }
     },
     "BassRhombus/BOT-0029": {
-      "last_sha": "135813954710951f0fb72d79985b25550bb99e39",
-      "total_commits": 5,
-      "total_lines": 1659,
+      "last_sha": "0c579f8c897b562b1e547a0ef7d48b3521d4882c",
+      "total_commits": 8,
+      "total_lines": 1908,
       "lang_lines": {
-        "JavaScript": 1659
+        "JavaScript": 1908
       }
     },
     "BassRhombus/DynastyBot2": {
-      "last_sha": "a78d56203aa58057f4eb83e91b1a77cf9d780f63",
-      "total_commits": 10,
-      "total_lines": 231,
+      "last_sha": "69c8e8905f7a900699c982d5a8c48651e65dca62",
+      "total_commits": 12,
+      "total_lines": 234,
       "lang_lines": {
-        "JavaScript": 231
+        "JavaScript": 234
       }
     },
     "BassRhombus/BOT-0030": {
-      "last_sha": "9b56793e5788be4c2b33bd5cfad99ac3adf11104",
-      "total_commits": 37,
-      "total_lines": 18999,
+      "last_sha": "2732c4135f6724c154f9d194d215806cd1e875de",
+      "total_commits": 39,
+      "total_lines": 19001,
       "lang_lines": {
-        "JavaScript": 18999
+        "JavaScript": 19001
       }
     },
     "BassRhombus/BOT-0026": {
-      "last_sha": "55cdcb5dc7b6f7a8772a81280afe53d64dc0dfb8",
-      "total_commits": 4,
-      "total_lines": 2600,
+      "last_sha": "39276b8c52e3fbce577a9bf8378d1b27091e5241",
+      "total_commits": 6,
+      "total_lines": 2602,
       "lang_lines": {
-        "JavaScript": 2600
+        "JavaScript": 2602
       }
     },
     "BassRhombus/TTBotBot": {
@@ -602,35 +602,35 @@
       }
     },
     "BassRhombus/BOT-0021": {
-      "last_sha": "510346047a1e2756e751acdbec221ad9a6bd00c9",
-      "total_commits": 6,
-      "total_lines": 811,
+      "last_sha": "d35c2c566b07c9eebfe42dc85390ffad92f93c32",
+      "total_commits": 9,
+      "total_lines": 1067,
       "lang_lines": {
-        "JavaScript": 811
+        "JavaScript": 1067
       }
     },
     "BassRhombus/CustomerLink": {
-      "last_sha": "f9bc1822387e5b01e71f55622c757d60910ca8af",
-      "total_commits": 1,
-      "total_lines": 59,
+      "last_sha": "c8451d572dc4a41dd2a6c6185659cda9e637091a",
+      "total_commits": 2,
+      "total_lines": 87,
       "lang_lines": {
-        "JavaScript": 59
+        "JavaScript": 87
       }
     },
     "BassRhombus/BOT-0007": {
-      "last_sha": "07d3eac25590c27cde21b24adb4ba8c4e0a328b3",
-      "total_commits": 16,
-      "total_lines": 7592,
+      "last_sha": "2007133dc0773f33c7ac69f40ed3d0a5fd56c2dd",
+      "total_commits": 18,
+      "total_lines": 7594,
       "lang_lines": {
-        "JavaScript": 7592
+        "JavaScript": 7594
       }
     },
     "BassRhombus/BOT-0022": {
-      "last_sha": "d28d192c19c7fd849854e5abe28271eb42c04280",
-      "total_commits": 2,
-      "total_lines": 719,
+      "last_sha": "da3597f005fa7d6eb9e03d433f31b32d386306e3",
+      "total_commits": 5,
+      "total_lines": 973,
       "lang_lines": {
-        "JavaScript": 719
+        "JavaScript": 973
       }
     },
     "BassRhombus/DiscordFix": {
@@ -658,28 +658,28 @@
       }
     },
     "BassRhombus/BOT-0023": {
-      "last_sha": "58d2fbf76dacb4e54e6bbfd80f3e62d9c5e145a6",
-      "total_commits": 14,
-      "total_lines": 323,
+      "last_sha": "4c27692fb6022c8046fcde47f6a846189f104dec",
+      "total_commits": 16,
+      "total_lines": 325,
       "lang_lines": {
-        "JavaScript": 323
+        "JavaScript": 325
       }
     },
     "BassRhombus/BOT-0020": {
-      "last_sha": "e9866f9904cd97b0f8c490d3856fa8dc24fe692c",
-      "total_commits": 5,
-      "total_lines": 7115,
+      "last_sha": "6ca6191706d96016111f7b2d3837244ad7dd5170",
+      "total_commits": 7,
+      "total_lines": 7117,
       "lang_lines": {
-        "JavaScript": 7088,
+        "JavaScript": 7090,
         "SQL": 27
       }
     },
     "BassRhombus/DynastyBot-Customer": {
-      "last_sha": "0d9761fbc9cdee454811c06da21b462d95a8578b",
-      "total_commits": 16,
-      "total_lines": 2778,
+      "last_sha": "545aa1240c660b8f6126ada0eb013a5e8ca13545",
+      "total_commits": 18,
+      "total_lines": 2781,
       "lang_lines": {
-        "JavaScript": 2778
+        "JavaScript": 2781
       }
     },
     "BassRhombus/GalaxyBot": {
@@ -699,11 +699,11 @@
       }
     },
     "BassRhombus/BOT-0016": {
-      "last_sha": "6b77f731fba508470367abd27be4637edeadcee8",
-      "total_commits": 8,
-      "total_lines": 1311,
+      "last_sha": "f2348864c2fc98699e1c9b6eb8691cc6eb6fd601",
+      "total_commits": 10,
+      "total_lines": 1313,
       "lang_lines": {
-        "JavaScript": 1311
+        "JavaScript": 1313
       }
     },
     "BassRhombus/UselessSite": {
@@ -751,11 +751,11 @@
       }
     },
     "BassRhombus/BOT-0011": {
-      "last_sha": "afca84c99ec3fd0dc57961ed15b21faed9e0a6a5",
-      "total_commits": 1,
-      "total_lines": 602,
+      "last_sha": "d5245eecb3d535eeb4c8c76950df51814549d537",
+      "total_commits": 3,
+      "total_lines": 604,
       "lang_lines": {
-        "JavaScript": 602
+        "JavaScript": 604
       }
     },
     "BassRhombus/SpeciesTracker": {
@@ -767,11 +767,11 @@
       }
     },
     "BassRhombus/DynastyBot": {
-      "last_sha": "52287405b17bb00ff6ceea1e30054c954d880fef",
-      "total_commits": 5,
-      "total_lines": 1539,
+      "last_sha": "c7093a1903a046dacabd12f86d161315de120a68",
+      "total_commits": 7,
+      "total_lines": 1541,
       "lang_lines": {
-        "JavaScript": 1539
+        "JavaScript": 1541
       }
     },
     "BassRhombus/SentryBot": {
@@ -815,11 +815,11 @@
       }
     },
     "BassRhombus/MinneyBot": {
-      "last_sha": "20e5d657ecfc583b3a816dd3dfa8593533c2189a",
-      "total_commits": 5,
-      "total_lines": 4923,
+      "last_sha": "5ad23fea43c61a2f5d80d82d61e89c29a9d90ca9",
+      "total_commits": 7,
+      "total_lines": 4925,
       "lang_lines": {
-        "JavaScript": 4923
+        "JavaScript": 4925
       }
     },
     "BassRhombus/WaitingBot": {
@@ -831,11 +831,11 @@
       }
     },
     "BassRhombus/MisfitsStrikeBot": {
-      "last_sha": "85ae8de484530a18198ee335a7e47a1d8052309c",
-      "total_commits": 44,
-      "total_lines": 7141,
+      "last_sha": "90cd0aad0ccf719bc5c8da3307af825e12ec2875",
+      "total_commits": 46,
+      "total_lines": 7143,
       "lang_lines": {
-        "JavaScript": 7141
+        "JavaScript": 7143
       }
     },
     "BassRhombus/ISLNotes": {
@@ -853,11 +853,11 @@
       }
     },
     "BassRhombus/HermitBot": {
-      "last_sha": "9e93f6c27d69f9b759fc5c837aebb439fa91977d",
-      "total_commits": 33,
-      "total_lines": 10036,
+      "last_sha": "e9ad37b65605a9c942529fe6f47983e61e3fa782",
+      "total_commits": 35,
+      "total_lines": 10038,
       "lang_lines": {
-        "JavaScript": 10024,
+        "JavaScript": 10026,
         "Shell": 12
       }
     },
@@ -936,11 +936,11 @@
       }
     },
     "BassRhombus/StenopsBot": {
-      "last_sha": "dd36d7414b46a5ee238c428dab017c9f5bc86024",
-      "total_commits": 8,
-      "total_lines": 1288,
+      "last_sha": "b88bb9cfacdc618b95fe3ff4d5203207f2ed16b8",
+      "total_commits": 9,
+      "total_lines": 1290,
       "lang_lines": {
-        "JavaScript": 1288
+        "JavaScript": 1290
       }
     },
     "BassRhombus/PHPKillTracker": {
@@ -1097,19 +1097,19 @@
       }
     },
     "BassRhombus/BOT-0036": {
-      "last_sha": "8a9bcee5d0b30230362022e2d3a9ab669d7940be",
-      "total_commits": 3,
-      "total_lines": 599,
+      "last_sha": "19cfb2b718d00f8d3687e154ae5e30df3e91740f",
+      "total_commits": 5,
+      "total_lines": 601,
       "lang_lines": {
-        "JavaScript": 599
+        "JavaScript": 601
       }
     },
     "BassRhombus/BOT-0035": {
-      "last_sha": "e42f4f06f14c3ab540cbcb35c2aaa3a16c658241",
-      "total_commits": 2,
-      "total_lines": 360,
+      "last_sha": "134e8e591ce1c7078d0437c6993a623087a1c3f0",
+      "total_commits": 4,
+      "total_lines": 362,
       "lang_lines": {
-        "JavaScript": 360
+        "JavaScript": 362
       }
     },
     "BassRhombus/ApiModLister": {
@@ -1146,11 +1146,11 @@
       }
     },
     "BassRhombus/BOT-0038": {
-      "last_sha": "1a3875e8799346c97f56df50c4d129817fbb3eaf",
-      "total_commits": 22,
-      "total_lines": 4421,
+      "last_sha": "a3065d2f92e806772e222242b4ffe557ef9471e8",
+      "total_commits": 24,
+      "total_lines": 4423,
       "lang_lines": {
-        "JavaScript": 4299,
+        "JavaScript": 4301,
         "SQL": 122
       }
     },
@@ -1161,11 +1161,11 @@
       "lang_lines": {}
     },
     "BassRhombus/Bot-0040": {
-      "last_sha": "6cddf6d88ceba79043cd374780e2986fb3e2f940",
-      "total_commits": 11,
-      "total_lines": 745,
+      "last_sha": "9288f1a17e6d6ca81fd55ce7662bb68c14732a1e",
+      "total_commits": 13,
+      "total_lines": 747,
       "lang_lines": {
-        "JavaScript": 745
+        "JavaScript": 747
       }
     },
     "NexLink-Core-LLC/game-config-data": {
@@ -1175,11 +1175,11 @@
       "lang_lines": {}
     },
     "BassRhombus/BOT-0039": {
-      "last_sha": "0ee560e660fa8559e469feda93be9458f885c572",
-      "total_commits": 5,
-      "total_lines": 3328,
+      "last_sha": "1aa1e7708e92d6eb30b9da410c8c58a4cae2b0b3",
+      "total_commits": 8,
+      "total_lines": 3556,
       "lang_lines": {
-        "JavaScript": 3328
+        "JavaScript": 3556
       }
     },
     "BassRhombus/PalworldAPI": {
@@ -1192,51 +1192,51 @@
       }
     },
     "BassRhombus/BOT-0043": {
-      "last_sha": "28c3f0f4a548a189c8295cd3cc4cce27a06875b8",
-      "total_commits": 1,
-      "total_lines": 1310,
+      "last_sha": "c0947058067933b4ecd6426d265124d1228d7f5c",
+      "total_commits": 4,
+      "total_lines": 1489,
       "lang_lines": {
-        "JavaScript": 1310
+        "JavaScript": 1489
       }
     },
     "BassRhombus/BOT-0024": {
-      "last_sha": "5da5265b1914e69bfccd3aa2dd5d393118847b20",
-      "total_commits": 7,
-      "total_lines": 2245,
+      "last_sha": "8c2f57234179cc4ba13e276e44e6ad0bad6954e6",
+      "total_commits": 9,
+      "total_lines": 2247,
       "lang_lines": {
-        "JavaScript": 2245
+        "JavaScript": 2247
       }
     },
     "BassRhombus/BOT-0045": {
-      "last_sha": "20ab0ef01f9c0fe09fe288cb7a61a79c6b69e849",
-      "total_commits": 3,
-      "total_lines": 4087,
+      "last_sha": "0cfd6e87bd092629724ead3abb60bc1c7e84eb86",
+      "total_commits": 5,
+      "total_lines": 4089,
       "lang_lines": {
-        "TypeScript": 4087
+        "TypeScript": 4089
       }
     },
     "BassRhombus/BOT-0044": {
-      "last_sha": "8647e27610e5515a91b54727677ed55482dc864b",
-      "total_commits": 12,
-      "total_lines": 2708,
+      "last_sha": "127e50d51f150572ba9344405cc2381d828af56c",
+      "total_commits": 14,
+      "total_lines": 2730,
       "lang_lines": {
-        "JavaScript": 2708
+        "JavaScript": 2730
       }
     },
     "BassRhombus/BOT-0047": {
-      "last_sha": "038af6dbc3ec1615e5cf4c35b02deb3d14d3814e",
-      "total_commits": 1,
-      "total_lines": 1054,
+      "last_sha": "286ff00cb7ae1635a6b64b640825d6e62df29cbd",
+      "total_commits": 4,
+      "total_lines": 1392,
       "lang_lines": {
-        "JavaScript": 1054
+        "JavaScript": 1392
       }
     },
     "BassRhombus/BOT-0048": {
-      "last_sha": "8005db57f003f30d1bd8cfe5435e7ed87d879399",
-      "total_commits": 1,
-      "total_lines": 879,
+      "last_sha": "8bdf7897d0b0e2434d849153d761665f1ada0eb1",
+      "total_commits": 4,
+      "total_lines": 1073,
       "lang_lines": {
-        "JavaScript": 879
+        "JavaScript": 1073
       }
     },
     "BassRhombus/EventBot": {
