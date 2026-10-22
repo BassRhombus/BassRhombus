@@ -1,88 +1,90 @@
 <svg width="480" height="450" viewBox="0 0 480 450" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .bg { fill: #0d1117; }
-      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #58a6ff; }
-      .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
-      .lang-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #c9d1d9; }
-      .lang-stats { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
-      .bar-bg { fill: #21262d; }
+      .title { font-family: Poppins, Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #E5E7EB; }
+      .subtitle { font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #9CA3AF; }
+      .lang-name { font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #E5E7EB; }
+      .lang-stats { font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #9CA3AF; }
+      .bar-bg { fill: #2C2E33; }
+      .bar { animation: grow 1s ease-out both; transform-box: fill-box; transform-origin: left; }
+      @keyframes grow { from { transform: scaleX(0); } }
+      @media (prefers-reduced-motion: reduce) { .bar { animation: none; } }
     </style>
   </defs>
-  <rect class="bg" width="480" height="450" rx="6"/>
-  <rect x="0.5" y="0.5" width="479" height="449" rx="6" fill="none" stroke="#30363d" stroke-width="1"/>
-  <text x="20" y="32" class="title">📊 My Code Contributions</text>
-  <text x="20" y="52" class="subtitle">1.2M lines added • 2.9k commits • 143 repos analyzed</text>
+  <defs><pattern id="code-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.5H60M0.5 0V60" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1" fill="none"/></pattern><radialGradient id="code-g1"><stop offset="0" stop-color="rgb(10,81,194)" stop-opacity="0.12"/><stop offset="1" stop-color="rgb(10,81,194)" stop-opacity="0"/></radialGradient><radialGradient id="code-g2"><stop offset="0" stop-color="rgb(43,197,107)" stop-opacity="0.08"/><stop offset="1" stop-color="rgb(43,197,107)" stop-opacity="0"/></radialGradient><radialGradient id="code-g3"><stop offset="0" stop-color="rgb(24,160,153)" stop-opacity="0.06"/><stop offset="1" stop-color="rgb(24,160,153)" stop-opacity="0"/></radialGradient><clipPath id="code-clip"><rect width="480" height="450" rx="12"/></clipPath></defs><g clip-path="url(#code-clip)"><rect width="480" height="450" fill="#1A1A1E"/><rect width="480" height="450" fill="url(#code-grid)"/><ellipse cx="72.0" cy="0.0" rx="1000" ry="600" fill="url(#code-g1)"/><ellipse cx="408.0" cy="0.0" rx="800" ry="500" fill="url(#code-g2)"/><ellipse cx="240.0" cy="450.0" rx="600" ry="400" fill="url(#code-g3)"/></g><rect x="0.5" y="0.5" width="479" height="449" rx="12" fill="none" stroke="#374151"/>
+  <rect x="20" y="14" width="4" height="26" rx="2" fill="#3b7de6"/>
+  <text x="34" y="32" class="title">My Code Contributions</text>
+  <text x="20" y="52" class="subtitle">1.2M lines added • 3.0k commits • 143 repos analyzed</text>
 
   <g transform="translate(20, 85)">
     <circle cx="6" cy="8" r="6" fill="#3178c6"/>
     <text x="18" y="12" class="lang-name">TypeScript</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="174.56406716705112" height="10" fill="#3178c6" rx="5"/>
+    <rect x="0" y="20" width="174.42597816298127" height="10" fill="#3178c6" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">703.1k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">58.2%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">58.1%</text>
   </g>
 
   <g transform="translate(20, 125)">
     <circle cx="6" cy="8" r="6" fill="#f1e05a"/>
     <text x="18" y="12" class="lang-name">JavaScript</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="86.38136643186834" height="10" fill="#f1e05a" rx="5"/>
+    <rect x="0" y="20" width="86.31278887160518" height="10" fill="#f1e05a" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">347.9k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">28.8%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">28.8%</text>
   </g>
 
   <g transform="translate(20, 165)">
     <circle cx="6" cy="8" r="6" fill="#3572A5"/>
     <text x="18" y="12" class="lang-name">Python</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="23.415111345054214" height="10" fill="#3572A5" rx="5"/>
-    <text x="315" y="14" class="lang-stats">94.3k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">7.8%</text>
+    <rect x="0" y="20" width="23.634193962940085" height="10" fill="#3572A5" rx="5" class="bar"/>
+    <text x="315" y="14" class="lang-stats">95.3k lines</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">7.9%</text>
   </g>
 
   <g transform="translate(20, 205)">
     <circle cx="6" cy="8" r="6" fill="#00B4AB"/>
     <text x="18" y="12" class="lang-name">Dart</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="11.874653947665713" height="10" fill="#00B4AB" rx="5"/>
+    <rect x="0" y="20" width="11.86522674327734" height="10" fill="#00B4AB" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">47.8k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">4.0%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">4.0%</text>
   </g>
 
   <g transform="translate(20, 245)">
     <circle cx="6" cy="8" r="6" fill="#e38c00"/>
     <text x="18" y="12" class="lang-name">SQL</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="2" height="10" fill="#e38c00" rx="5"/>
+    <rect x="0" y="20" width="2" height="10" fill="#e38c00" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">6.0k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">0.5%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">0.5%</text>
   </g>
 
   <g transform="translate(20, 285)">
     <circle cx="6" cy="8" r="6" fill="#89e051"/>
     <text x="18" y="12" class="lang-name">Shell</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="2" height="10" fill="#89e051" rx="5"/>
+    <rect x="0" y="20" width="2" height="10" fill="#89e051" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">5.2k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">0.4%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">0.4%</text>
   </g>
 
   <g transform="translate(20, 325)">
     <circle cx="6" cy="8" r="6" fill="#f34b7d"/>
     <text x="18" y="12" class="lang-name">C++</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="2" height="10" fill="#f34b7d" rx="5"/>
+    <rect x="0" y="20" width="2" height="10" fill="#f34b7d" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">3.6k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">0.3%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">0.3%</text>
   </g>
 
   <g transform="translate(20, 365)">
     <circle cx="6" cy="8" r="6" fill="#178600"/>
     <text x="18" y="12" class="lang-name">C#</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="2" height="10" fill="#178600" rx="5"/>
+    <rect x="0" y="20" width="2" height="10" fill="#178600" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">402 lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #58a6ff;">0.0%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">0.0%</text>
   </g>
 </svg>
