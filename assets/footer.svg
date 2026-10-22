@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-label="Building bots, games, and infrastructure — one commit at a time."><title>Building bots, games, and infrastructure — one commit at a time.</title><style>
+  text { font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace; }
+  .h { font-family: Poppins, Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 600; fill: #E5E7EB; }
+  .muted { fill: #9CA3AF; }
+  .fade-in { animation: fadeIn 0.3s ease-in-out both; }
+  .slide-up { animation: slideUp 0.4s ease-out both; }
+  @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+  @keyframes slideUp { 0% { transform: translateY(20px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+  .pulse-slow { animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+  }
+</style><defs><pattern id="foot-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.5H60M0.5 0V60" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1" fill="none"/></pattern><radialGradient id="foot-g1"><stop offset="0" stop-color="rgb(10,81,194)" stop-opacity="0.12"/><stop offset="1" stop-color="rgb(10,81,194)" stop-opacity="0"/></radialGradient><radialGradient id="foot-g2"><stop offset="0" stop-color="rgb(43,197,107)" stop-opacity="0.08"/><stop offset="1" stop-color="rgb(43,197,107)" stop-opacity="0"/></radialGradient><radialGradient id="foot-g3"><stop offset="0" stop-color="rgb(24,160,153)" stop-opacity="0.06"/><stop offset="1" stop-color="rgb(24,160,153)" stop-opacity="0"/></radialGradient><clipPath id="foot-clip"><rect width="1200" height="130" rx="12"/></clipPath></defs><g clip-path="url(#foot-clip)"><rect width="1200" height="130" fill="#1A1A1E"/><rect width="1200" height="130" fill="url(#foot-grid)"/><ellipse cx="180.0" cy="0.0" rx="1000" ry="600" fill="url(#foot-g1)"/><ellipse cx="1020.0" cy="0.0" rx="800" ry="500" fill="url(#foot-g2)"/><ellipse cx="600.0" cy="130.0" rx="600" ry="400" fill="url(#foot-g3)"/></g><rect x="0.5" y="0.5" width="1199" height="129" rx="12" fill="none" stroke="#374151"/><path d="M560.0 34H640.0" stroke="url(#fg)" stroke-width="3" stroke-linecap="round"/><defs><linearGradient id="fg"><stop offset="0" stop-color="#3b7de6"/><stop offset="1" stop-color="#4ed88a"/></linearGradient></defs><text x="600.0" y="72" text-anchor="middle" class="h" font-size="22">“Building bots, games, and infrastructure — one commit at a time.”</text><text x="600.0" y="100" text-anchor="middle" font-size="12" class="muted pulse-slow">⚡ auto-updated by GitHub Actions</text></svg>

@@ -1,0 +1,53 @@
+name: Connect Four
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'connect4|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Issue text is untrusted: it only ever reaches the script through env vars.
+      # Each attempt replays the move on top of the latest main, so simultaneous
+      # moves are applied in order instead of clobbering each other.
+      - name: Play move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          REPO: ${{ github.repository }}
+          REPLY_FILE: ${{ runner.temp }}/reply.md
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python scripts/connect4.py move
+            git add README.md game
+            git diff --staged --quiet && exit 0
+            git commit -q -m "connect4: move by @${ISSUE_AUTHOR}"
+            git push -q origin HEAD:main && exit 0
+            sleep $((RANDOM % 5 + i * 2))
+          done
+          echo "Something went wrong saving your move, please try again in a minute." > "$REPLY_FILE"
+          exit 1
+
+      - name: Reply and close
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          [ -s "$RUNNER_TEMP/reply.md" ] || echo "Something went wrong saving your move, please try again in a minute." > "$RUNNER_TEMP/reply.md"
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --comment "$(cat "$RUNNER_TEMP/reply.md")"

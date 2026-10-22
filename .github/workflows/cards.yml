@@ -1,0 +1,44 @@
+name: Generate Profile Cards
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_cards.py"
+      - "scripts/nlc.py"
+      - ".github/workflows/cards.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate cards
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_USER: BassRhombus
+        run: python scripts/generate_cards.py
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: refresh profile cards"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep $((i * 5)); done
+          exit 1

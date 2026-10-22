@@ -1,17 +1,12 @@
 <div align="center">
 
-<!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=200&section=header&text=BassRhombus&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Developer%20&descSize=16&descAlignY=55&descAlign=50"/>
-
-<!-- TYPING -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%24+./build_something_awesome.sh;%3E%3E+Compiling+dreams+into+reality..." alt="Typing SVG" />
-</a>
+<img src="./assets/hero.svg" alt="BassRhombus — Building bots, games, and infrastructure" width="100%"/>
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=BassRhombus&color=58a6ff&style=flat-square&label=Profile+Views)](https://github.com/BassRhombus)
-[![GitHub followers](https://img.shields.io/github/followers/BassRhombus?style=flat-square&color=58a6ff&labelColor=161b22)](https://github.com/BassRhombus?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=BassRhombus&color=0a51c2&style=flat-square&label=Profile+Views)](https://github.com/BassRhombus)
+[![GitHub followers](https://img.shields.io/github/followers/BassRhombus?style=flat-square&color=2bc56b&labelColor=16181D&label=Followers)](https://github.com/BassRhombus?tab=followers)
+[![Play Connect Four](https://img.shields.io/badge/🎮_Play-Connect_Four-18a099?style=flat-square&labelColor=16181D)](#-community-connect-four)
 
 </div>
 
@@ -21,16 +16,67 @@
 
 <div align="center">
 <img src="./code-stats.svg" alt="Code Statistics"/>
+<br/><br/>
+<img src="./assets/stats.svg" alt="GitHub Stats" width="49%"/>
+<img src="./assets/streak.svg" alt="Contribution Streak" width="49%"/>
+<br/><br/>
+<img src="./assets/trophies.svg" alt="Trophies" width="100%"/>
 </div>
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=BassRhombus&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=BassRhombus&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681&currStreakNum=c9d1d9&sideNums=c9d1d9" width="49%"/>
-</div>
+---
+
+## 🏙️ Contribution City
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=BassRhombus&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies"/>
+<img src="./profile-3d-contrib/profile-nlc.svg" alt="3D contribution calendar" width="100%"/>
 </div>
+
+<details>
+<summary><b>🐍 Snake mode</b></summary>
+<br/>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BassRhombus/BassRhombus/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BassRhombus/BassRhombus/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/BassRhombus/BassRhombus/output/snake-dark.svg" />
+</picture>
+</div>
+</details>
+
+---
+
+## 📈 Activity
+
+<div align="center">
+<img src="./assets/activity.svg" alt="Contribution activity, last 31 days" width="100%"/>
+</div>
+
+---
+
+<!-- CONNECT4:START -->
+
+## 🎮 Community Connect Four
+
+<div align="center">
+
+**Anyone can play!** Click a column number to drop the next piece. Everyone plays together, taking turns for whichever team is up.
+
+It's **🔵 Blue's** turn · move #1
+
+| [**1**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C1&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) | [**2**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C2&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) | [**3**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C3&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) | [**4**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C4&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) | [**5**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C5&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) | [**6**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C6&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) | [**7**](https://github.com/BassRhombus/BassRhombus/issues/new?title=connect4%7Cdrop%7C7&body=Just%20press%20%2A%2ACreate%2A%2A%20%E2%80%94%20don%27t%20change%20the%20title.%20A%20bot%20will%20drop%20your%20piece%20within%20a%20minute.) |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+
+🔵 Blue **0** · 🟢 Green **0** · 🤝 Draws **0**
+
+</div>
+
+<!-- CONNECT4:END -->
 
 ---
 
@@ -140,47 +186,6 @@
 
 ---
 
-## 🐍 Contribution Graph
-
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BassRhombus/BassRhombus/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BassRhombus/BassRhombus/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/BassRhombus/BassRhombus/output/snake.svg" />
-</picture>
+<img src="./assets/footer.svg" alt="Building bots, games, and infrastructure — one commit at a time." width="100%"/>
 </div>
-
----
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=BassRhombus&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=161b22&hide_border=true"/>
-</div>
-
----
-
-## 🧱 Commit Block
-
-<div align="center">
-<img src="./profile-gitblock.svg" alt="Commit Block"/>
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   "Building bots, games, and infrastructure —                    ║
-║    one commit at a time."                                        ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-<sub>⚡ This README auto-updates via GitHub Actions</sub>
-
-</div>
-
-<!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=100&section=footer"/>
-

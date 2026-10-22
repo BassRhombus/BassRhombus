@@ -21,8 +21,8 @@ jobs:
         with:
           github_user_name: BassRhombus
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg?color_snake=#2bc56b&color_dots=#e5e7eb,#9fbef0,#3b7de6,#0a51c2,#083d94
+            dist/snake-dark.svg?color_snake=#2bc56b&color_dots=#25262B,#083d94,#0a51c2,#18a099,#2bc56b
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

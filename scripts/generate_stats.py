@@ -28,6 +28,9 @@ from typing import Any
 
 import requests
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import nlc  # noqa: E402
+
 sys.stdout.reconfigure(line_buffering=True)
 
 GITHUB_TOKEN = os.environ.get("METRICS_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -329,17 +332,19 @@ def generate_svg(lang_stats: dict, total_lines: int, total_commits: int, total_r
     svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .bg {{ fill: #0d1117; }}
-      .title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #58a6ff; }}
-      .subtitle {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }}
-      .lang-name {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #c9d1d9; }}
-      .lang-stats {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }}
-      .bar-bg {{ fill: #21262d; }}
+      .title {{ font-family: {nlc.HEADING}; font-size: 16px; font-weight: 600; fill: {nlc.TEXT}; }}
+      .subtitle {{ font-family: {nlc.SANS}; font-size: 12px; fill: {nlc.TEXT_MUTED}; }}
+      .lang-name {{ font-family: {nlc.SANS}; font-size: 13px; font-weight: 600; fill: {nlc.TEXT}; }}
+      .lang-stats {{ font-family: {nlc.SANS}; font-size: 12px; fill: {nlc.TEXT_MUTED}; }}
+      .bar-bg {{ fill: {nlc.BG_TERTIARY}; }}
+      .bar {{ animation: grow 1s ease-out both; transform-box: fill-box; transform-origin: left; }}
+      @keyframes grow {{ from {{ transform: scaleX(0); }} }}
+      @media (prefers-reduced-motion: reduce) {{ .bar {{ animation: none; }} }}
     </style>
   </defs>
-  <rect class="bg" width="{width}" height="{height}" rx="6"/>
-  <rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="6" fill="none" stroke="#30363d" stroke-width="1"/>
-  <text x="{padding}" y="32" class="title">📊 My Code Contributions</text>
+  {nlc.background(width, height, "code")}
+  <rect x="{padding}" y="14" width="4" height="26" rx="2" fill="{nlc.PRIMARY_LIGHT}"/>
+  <text x="{padding + 14}" y="32" class="title">My Code Contributions</text>
   <text x="{padding}" y="52" class="subtitle">{format_number(total_lines)} lines added • {format_number(total_commits)} commits • {total_repos} repos analyzed</text>
 '''
 
@@ -352,9 +357,9 @@ def generate_svg(lang_stats: dict, total_lines: int, total_commits: int, total_r
     <circle cx="6" cy="8" r="6" fill="{lang["color"]}"/>
     <text x="18" y="12" class="lang-name">{lang["name"]}</text>
     <rect x="0" y="20" width="{bar_width}" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="{fill_width}" height="10" fill="{lang["color"]}" rx="5"/>
+    <rect x="0" y="20" width="{fill_width}" height="10" fill="{lang["color"]}" rx="5" class="bar"/>
     <text x="{bar_width + 15}" y="14" class="lang-stats">{format_number(lang["lines"])} lines</text>
-    <text x="{bar_width + 15}" y="30" class="lang-stats" style="fill: #58a6ff;">{lang["pct"]:.1f}%</text>
+    <text x="{bar_width + 15}" y="30" class="lang-stats" style="fill: {nlc.PRIMARY_LIGHT};">{lang["pct"]:.1f}%</text>
   </g>
 '''
         y_offset += bar_height

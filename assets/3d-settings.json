@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-nlc.svg",
+  "backgroundColor": "#1A1A1E",
+  "foregroundColor": "#E5E7EB",
+  "strongColor": "#3b7de6",
+  "weakColor": "#9CA3AF",
+  "radarColor": "#2bc56b",
+  "growingAnimation": true,
+  "contribColors": [
+    "#25262B",
+    "#083d94",
+    "#0a51c2",
+    "#18a099",
+    "#2bc56b"
+  ]
+}

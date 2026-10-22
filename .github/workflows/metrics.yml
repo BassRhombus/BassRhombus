@@ -36,3 +36,18 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_stargazers: yes
+          # NexLink Core reskin of the classic template
+          extras_css: |
+            :root{background:#16181D;color:#9CA3AF}
+            h1,h2,h3{color:#3b7de6}
+            .field{color:#E5E7EB}
+            .field svg{fill:#9CA3AF}
+            footer{color:#6B7280}
+            .chart-bars .entry{color:#9CA3AF}
+            .chart-bars .bar{background-color:#0a51c2;border-color:#3b7de6}
+            [fill="#d1d5da"]{fill:#2C2E33}
+            [fill="#ebedf0"]{fill:#25262B}
+            [fill="#9be9a8"]{fill:#083d94}
+            [fill="#40c463"]{fill:#0a51c2}
+            [fill="#30a14e"]{fill:#18a099}
+            [fill="#216e39"]{fill:#2bc56b}
