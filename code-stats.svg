@@ -14,31 +14,31 @@
   <defs><pattern id="code-grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M0 0.5H60M0.5 0V60" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1" fill="none"/></pattern><radialGradient id="code-g1"><stop offset="0" stop-color="rgb(10,81,194)" stop-opacity="0.12"/><stop offset="1" stop-color="rgb(10,81,194)" stop-opacity="0"/></radialGradient><radialGradient id="code-g2"><stop offset="0" stop-color="rgb(43,197,107)" stop-opacity="0.08"/><stop offset="1" stop-color="rgb(43,197,107)" stop-opacity="0"/></radialGradient><radialGradient id="code-g3"><stop offset="0" stop-color="rgb(24,160,153)" stop-opacity="0.06"/><stop offset="1" stop-color="rgb(24,160,153)" stop-opacity="0"/></radialGradient><clipPath id="code-clip"><rect width="480" height="450" rx="12"/></clipPath></defs><g clip-path="url(#code-clip)"><rect width="480" height="450" fill="#1A1A1E"/><rect width="480" height="450" fill="url(#code-grid)"/><ellipse cx="72.0" cy="0.0" rx="1000" ry="600" fill="url(#code-g1)"/><ellipse cx="408.0" cy="0.0" rx="800" ry="500" fill="url(#code-g2)"/><ellipse cx="240.0" cy="450.0" rx="600" ry="400" fill="url(#code-g3)"/></g><rect x="0.5" y="0.5" width="479" height="449" rx="12" fill="none" stroke="#374151"/>
   <rect x="20" y="14" width="4" height="26" rx="2" fill="#3b7de6"/>
   <text x="34" y="32" class="title">My Code Contributions</text>
-  <text x="20" y="52" class="subtitle">1.2M lines added • 3.0k commits • 143 repos analyzed</text>
+  <text x="20" y="52" class="subtitle">1.2M lines added • 3.0k commits • 144 repos analyzed</text>
 
   <g transform="translate(20, 85)">
     <circle cx="6" cy="8" r="6" fill="#3178c6"/>
     <text x="18" y="12" class="lang-name">TypeScript</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="174.08569291485824" height="10" fill="#3178c6" rx="5" class="bar"/>
+    <rect x="0" y="20" width="173.81982051330345" height="10" fill="#3178c6" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">707.5k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">58.0%</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">57.9%</text>
   </g>
 
   <g transform="translate(20, 125)">
     <circle cx="6" cy="8" r="6" fill="#f1e05a"/>
     <text x="18" y="12" class="lang-name">JavaScript</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="86.93643154507072" height="10" fill="#f1e05a" rx="5" class="bar"/>
-    <text x="315" y="14" class="lang-stats">353.3k lines</text>
-    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">29.0%</text>
+    <rect x="0" y="20" width="87.26183291310069" height="10" fill="#f1e05a" rx="5" class="bar"/>
+    <text x="315" y="14" class="lang-stats">355.2k lines</text>
+    <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">29.1%</text>
   </g>
 
   <g transform="translate(20, 165)">
     <circle cx="6" cy="8" r="6" fill="#3572A5"/>
     <text x="18" y="12" class="lang-name">Python</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="23.439329967423504" height="10" fill="#3572A5" rx="5" class="bar"/>
+    <rect x="0" y="20" width="23.403532247088602" height="10" fill="#3572A5" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">95.3k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">7.8%</text>
   </g>
@@ -47,7 +47,7 @@
     <circle cx="6" cy="8" r="6" fill="#00B4AB"/>
     <text x="18" y="12" class="lang-name">Dart</text>
     <rect x="0" y="20" width="300" height="10" class="bar-bg" rx="5"/>
-    <rect x="0" y="20" width="11.767397915497947" height="10" fill="#00B4AB" rx="5" class="bar"/>
+    <rect x="0" y="20" width="11.74942615520301" height="10" fill="#00B4AB" rx="5" class="bar"/>
     <text x="315" y="14" class="lang-stats">47.8k lines</text>
     <text x="315" y="30" class="lang-stats" style="fill: #3b7de6;">3.9%</text>
   </g>
